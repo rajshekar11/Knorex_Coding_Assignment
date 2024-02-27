@@ -1,0 +1,44 @@
+package com.knorex.model;
+
+public class Vehicle {
+
+	private String registrationNumber;
+	private String color;
+	private VehicleType type;
+	
+	public Vehicle() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public Vehicle(String registrationNumber, String color, VehicleType type) {
+		super();
+		this.registrationNumber = registrationNumber;
+		this.color = color;
+		this.type = type;
+	}
+
+	public String getRegistrationNumber() {
+		return registrationNumber;
+	}
+
+	public void setRegistrationNumber(String registrationNumber) {
+		this.registrationNumber = registrationNumber;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public VehicleType getType() {
+		return type;
+	}
+
+	public void setType(VehicleType type) {
+		this.type = type;
+	}
+	
+}
